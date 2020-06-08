@@ -4,10 +4,10 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Entropy"
+Date "2020-06-08"
+Rev "0.1"
+Comp "Josh Johnson"
 Comment1 ""
 Comment2 ""
 Comment3 ""
