@@ -3557,8 +3557,8 @@ Wire Wire Line
 Wire Wire Line
 	21950 8850 22300 8850
 Wire Wire Line
-	18450 12350 18050 12350
-Text Label 18450 12350 2    50   ~ 0
+	18450 13350 18050 13350
+Text Label 18450 13350 2    50   ~ 0
 underglow
 Text Label 21950 10250 0    50   ~ 0
 col14
@@ -3619,8 +3619,8 @@ Wire Wire Line
 Wire Wire Line
 	21950 8200 22300 8200
 Wire Wire Line
-	18400 13350 18050 13350
-Text Label 18400 13350 2    50   ~ 0
+	18400 12350 18050 12350
+Text Label 18400 12350 2    50   ~ 0
 status
 Text Label 18400 11550 2    50   ~ 0
 SWDCLK
