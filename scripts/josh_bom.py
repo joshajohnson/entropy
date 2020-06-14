@@ -63,7 +63,7 @@ partfields -= set( ['Reference', 'Value', 'Footprint'] )
 columnset = compfields | partfields     # union
 
 # prepend an initial 'hard coded' list and put the enchillada into list 'columns'
-columns = ['Qty', 'Reference(s)', 'Value', 'Footprint', 'MPN', 'DigiKey', 'LCSC', 'Manufacturer', 'DNP', 'Notes']
+columns = ['Qty', 'Reference(s)', 'Value', 'Footprint', 'MPN', 'DigiKey', 'LCSC', 'Manufacturer', 'DNP', 'JLCSMT', 'Notes']
 
 # Create a new csv writer object to use as the output formatter
 out = csv.writer( f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL )
@@ -98,7 +98,7 @@ for group in grouped:
         c = component
 
     # Fill in the component groups common data
-    # columns = ['Qty', 'Reference(s)', 'Value', 'Footprint', 'MPN', 'DigiKey', 'LCSC', 'Manufacturer', 'DNP', 'Notes']
+    # columns = ['Qty', 'Reference(s)', 'Value', 'Footprint', 'MPN', 'DigiKey', 'LCSC', 'Manufacturer', 'DNP', 'JLCSMT', Notes']
     item += 1
     row.append( len(group) )
     row.append( refs );
