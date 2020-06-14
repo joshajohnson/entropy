@@ -1,0 +1,178 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "Entropy"
+Date "2020-06-08"
+Rev "0.1"
+Comp "Josh Johnson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 16550 15250 0    100  ~ 0
+Logos / Silk
+Text Notes 13850 14200 0    100  ~ 0
+Mounting Holes
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6F25460E
+P 13950 14400
+F 0 "H1" H 14050 14446 50  0000 L CNN
+F 1 "M2.5" H 14050 14355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 13950 14400 50  0001 C CNN
+F 3 "~" H 13950 14400 50  0001 C CNN
+F 4 "DNP" H 13950 14400 50  0001 C CNN "DNP"
+	1    13950 14400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6F790D02
+P 13950 14600
+F 0 "H2" H 14050 14646 50  0000 L CNN
+F 1 "M2.5" H 14050 14555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 13950 14600 50  0001 C CNN
+F 3 "~" H 13950 14600 50  0001 C CNN
+F 4 "DNP" H 13950 14600 50  0001 C CNN "DNP"
+	1    13950 14600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6F847C45
+P 13950 14800
+F 0 "H3" H 14050 14846 50  0000 L CNN
+F 1 "M2.5" H 14050 14755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 13950 14800 50  0001 C CNN
+F 3 "~" H 13950 14800 50  0001 C CNN
+F 4 "DNP" H 13950 14800 50  0001 C CNN "DNP"
+	1    13950 14800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6F8FEBF6
+P 13950 15000
+F 0 "H4" H 14050 15046 50  0000 L CNN
+F 1 "M2.5" H 14050 14955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 13950 15000 50  0001 C CNN
+F 3 "~" H 13950 15000 50  0001 C CNN
+F 4 "DNP" H 13950 15000 50  0001 C CNN "DNP"
+	1    13950 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6F9B5C9D
+P 13950 15200
+F 0 "H5" H 14050 15246 50  0000 L CNN
+F 1 "M2.5" H 14050 15155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 13950 15200 50  0001 C CNN
+F 3 "~" H 13950 15200 50  0001 C CNN
+F 4 "DNP" H 13950 15200 50  0001 C CNN "DNP"
+	1    13950 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6FA6CB86
+P 13950 15400
+F 0 "H6" H 14050 15446 50  0000 L CNN
+F 1 "M2.5" H 14050 15355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 13950 15400 50  0001 C CNN
+F 3 "~" H 13950 15400 50  0001 C CNN
+F 4 "DNP" H 13950 15400 50  0001 C CNN "DNP"
+	1    13950 15400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 6FA6CB8C
+P 14550 15400
+F 0 "H12" H 14650 15446 50  0000 L CNN
+F 1 "M2.5" H 14650 15355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 14550 15400 50  0001 C CNN
+F 3 "~" H 14550 15400 50  0001 C CNN
+F 4 "DNP" H 14550 15400 50  0001 C CNN "DNP"
+	1    14550 15400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 6F9B5CA3
+P 14550 15200
+F 0 "H11" H 14650 15246 50  0000 L CNN
+F 1 "M2.5" H 14650 15155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 14550 15200 50  0001 C CNN
+F 3 "~" H 14550 15200 50  0001 C CNN
+F 4 "DNP" H 14550 15200 50  0001 C CNN "DNP"
+	1    14550 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 6F8FEBFC
+P 14550 15000
+F 0 "H10" H 14650 15046 50  0000 L CNN
+F 1 "M2.5" H 14650 14955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 14550 15000 50  0001 C CNN
+F 3 "~" H 14550 15000 50  0001 C CNN
+F 4 "DNP" H 14550 15000 50  0001 C CNN "DNP"
+	1    14550 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 6F847C4B
+P 14550 14800
+F 0 "H9" H 14650 14846 50  0000 L CNN
+F 1 "M2.5" H 14650 14755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 14550 14800 50  0001 C CNN
+F 3 "~" H 14550 14800 50  0001 C CNN
+F 4 "DNP" H 14550 14800 50  0001 C CNN "DNP"
+	1    14550 14800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 6F790D08
+P 14550 14600
+F 0 "H8" H 14650 14646 50  0000 L CNN
+F 1 "M2.5" H 14650 14555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 14550 14600 50  0001 C CNN
+F 3 "~" H 14550 14600 50  0001 C CNN
+F 4 "DNP" H 14550 14600 50  0001 C CNN "DNP"
+	1    14550 14600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 6F6D7ACE
+P 14550 14400
+F 0 "H7" H 14650 14446 50  0000 L CNN
+F 1 "M2.5" H 14650 14355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 14550 14400 50  0001 C CNN
+F 3 "~" H 14550 14400 50  0001 C CNN
+F 4 "DNP" H 14550 14400 50  0001 C CNN "DNP"
+	1    14550 14400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole LOGO?
+U 1 1 5EF09225
+P 17000 15650
+AR Path="/618A4248/5EF09225" Ref="LOGO?"  Part="1" 
+AR Path="/5EF09225" Ref="LOGO4"  Part="1" 
+F 0 "LOGO4" H 17100 15696 50  0000 L CNN
+F 1 "BSILK" H 17100 15605 50  0000 L CNN
+F 2 "graphics:back_silk_v0" H 17000 15650 50  0001 C CNN
+F 3 "~" H 17000 15650 50  0001 C CNN
+F 4 "DNP" H 17000 15650 50  0001 C CNN "DNP"
+	1    17000 15650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
