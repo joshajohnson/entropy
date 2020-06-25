@@ -13,48 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Graphic:Logo_Open_Hardware_Small LOGO?
-U 1 1 619339EC
-P 17450 15700
-AR Path="/618A4248/619339EC" Ref="LOGO?"  Part="1" 
-AR Path="/619339EC" Ref="LOGO3"  Part="1" 
-F 0 "LOGO3" H 17300 16000 50  0000 L CNN
-F 1 "OSHW Logo" H 17450 15475 50  0000 C CNN
-F 2 "josh-logos:OSHW_Logo_3.6x3.6_F.Mask" H 17450 15700 50  0001 C CNN
-F 3 "~" H 17450 15700 50  0001 C CNN
-F 4 "DNP" H 17450 15700 50  0001 C CNN "DNP"
-	1    17450 15700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole LOGO?
-U 1 1 619339F3
-P 16550 15800
-AR Path="/618A4248/619339F3" Ref="LOGO?"  Part="1" 
-AR Path="/619339F3" Ref="LOGO2"  Part="1" 
-F 0 "LOGO2" H 16650 15846 50  0000 L CNN
-F 1 "Josh-Details" H 16650 15755 50  0000 L CNN
-F 2 "josh-logos:josh-details" H 16550 15800 50  0001 C CNN
-F 3 "~" H 16550 15800 50  0001 C CNN
-F 4 "DNP" H 16550 15800 50  0001 C CNN "DNP"
-	1    16550 15800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole LOGO?
-U 1 1 619339FA
-P 16550 15600
-AR Path="/618A4248/619339FA" Ref="LOGO?"  Part="1" 
-AR Path="/619339FA" Ref="LOGO1"  Part="1" 
-F 0 "LOGO1" H 16650 15646 50  0000 L CNN
-F 1 "Josh-Logo" H 16650 15555 50  0000 L CNN
-F 2 "josh-logos:josh-johnson-logo-17x3" H 16550 15600 50  0001 C CNN
-F 3 "~" H 16550 15600 50  0001 C CNN
-F 4 "DNP" H 16550 15600 50  0001 C CNN "DNP"
-	1    16550 15600
-	1    0    0    -1  
-$EndComp
 Text Notes 16550 15250 0    100  ~ 0
 Logos / Silk
 $Comp
@@ -199,6 +157,20 @@ F 2 "MountingHole:MountingHole_2.2mm_M2" H 14550 14400 50  0001 C CNN
 F 3 "~" H 14550 14400 50  0001 C CNN
 F 4 "DNP" H 14550 14400 50  0001 C CNN "DNP"
 	1    14550 14400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole LOGO?
+U 1 1 5EEF2CEE
+P 16850 15500
+AR Path="/618A4248/5EEF2CEE" Ref="LOGO?"  Part="1" 
+AR Path="/5EEF2CEE" Ref="LOGO4"  Part="1" 
+F 0 "LOGO4" H 16950 15546 50  0000 L CNN
+F 1 "Entropy Logo" H 16950 15455 50  0000 L CNN
+F 2 "graphics:back_silk_v0" H 16850 15500 50  0001 C CNN
+F 3 "~" H 16850 15500 50  0001 C CNN
+F 4 "DNP" H 16850 15500 50  0001 C CNN "DNP"
+	1    16850 15500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
