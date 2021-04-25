@@ -584,7 +584,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "entropy0.3w.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
