@@ -10525,7 +10525,7 @@
     (property "Reference" "D14" (id 0) (at 199.2122 246.6594 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "PINK" (id 1) (at 199.2122 248.9708 90)
+    (property "Value" "BLU" (id 1) (at 199.2122 248.9708 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 205.74 248.92 0)
@@ -10587,7 +10587,7 @@
     (property "Reference" "D2" (id 0) (at 310.2611 247.0796 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "BLU" (id 1) (at 310.2611 249.3783 90)
+    (property "Value" "PNK" (id 1) (at 310.2611 249.3783 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 307.34 247.65 0)
@@ -13481,7 +13481,7 @@
     (in_bom yes) (on_board yes)
     (uuid cab1380b-6d0f-496d-8af6-dc3d54a48f02)
     (property "Reference" "U3" (id 0) (at 271.78 263.9018 0))
-    (property "Value" "XC6206PxxxMR" (id 1) (at 278.13 266.2005 0))
+    (property "Value" "XC6206P332MR" (id 1) (at 278.13 266.2005 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 275.59 263.525 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
@@ -14046,10 +14046,10 @@
       (reference "D1") (unit 1) (value "ORG") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/58feb3e0-5b67-4960-9ce9-f4d263ded301"
-      (reference "D2") (unit 1) (value "BLU") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D2") (unit 1) (value "PNK") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ef17407"
-      (reference "D14") (unit 1) (value "PINK") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D14") (unit 1) (value "BLU") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000691f43dd"
       (reference "D21") (unit 1) (value "SK6812-MINI-E") (footprint "josh-led:SK8612-MINI-E")
@@ -14826,7 +14826,7 @@
       (reference "U2") (unit 1) (value "SRV05-4") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/cab1380b-6d0f-496d-8af6-dc3d54a48f02"
-      (reference "U3") (unit 1) (value "XC6206PxxxMR") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "U3") (unit 1) (value "XC6206P332MR") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/2502cfc3-64c2-41a8-8a9e-f1d40ca0e317"
       (reference "U4") (unit 1) (value "nRF52840_holyiot_18010") (footprint "josh-module:nRF52840_holyiot_18010")
