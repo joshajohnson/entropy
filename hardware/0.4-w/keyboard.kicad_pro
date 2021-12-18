@@ -70,6 +70,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "warning",
         "hole_near_hole": "warning",
         "invalid_outline": "error",
@@ -88,6 +89,7 @@
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -568,7 +570,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
@@ -578,7 +580,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "entropy0.3w.step",
+      "step": "../../../entropy0.3w.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -598,13 +600,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "Pcbnew",
     "ngspice": {
