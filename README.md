@@ -15,7 +15,7 @@ TODO
 Supports Encoders in (0,0)...(0,3) and (0,19)
 
 ZMK versions only allow 4 encoders to be populated (hiting interrupt limit with 5 encoders)
-![KLE](docs/kle.jpg)
+![KLE](docs/entropy-kle.jpg)
 
 ## Revision History
 
