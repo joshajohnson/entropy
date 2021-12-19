@@ -9,7 +9,9 @@ ZMK enables wireless functionality, and you'll get upwards of 6 months battery l
 It also supports up to 4 rotary incoders in 5 different positions, along with a myriad of layout options.
 
 ## Photos
-TODO
+![Top View](docs/photos/entropy-top.JPG)
+![Side View](docs/photos/entropy-iso.JPG)
+![Battery and Power Circuit](docs/photos/entropy-pcb.JPG)
 
 ## Layout
 Supports Encoders in (0,0)...(0,3) and (0,19)
